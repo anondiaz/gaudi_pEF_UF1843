@@ -1,8 +1,19 @@
 /* Seccion para insertar la fuente a utilizar */
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap'); */
 /* Sugerencia de fuentes alternativas */
 /* @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Mako&family=Salsa&display=swap'); */
+/* Traemos las fuentes de nuestro servidor */
 
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.woff") format("woff"),
+        url("../fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 * {
     margin: 0;
@@ -15,6 +26,8 @@
     font-family: "ballet";
 }
 
+
+
 :root {
     --primary-color: #888;
     --secondary-color: #8d093e5a;
@@ -22,10 +35,15 @@
     --hover-color: #ffa02e;
     /* cambio de el fondo del color para que sea mas accesible color de video*/
     /* --backgroung-color: #b7d2d4; */
-    --backgroung-color:#111;
+    --backgroung-color:#E9D9C4;
     --width-content: 1200px;
     --text-normal: "Mako", sans-serif;
     --text-title: "Belanosima", cursive;
+}
+
+/* Ayuda a definir estructura y distribución de los elementos, comentar cuando ya no sea necesario */
+div {
+  border: 2px solid black;
 }
 
 .width-content {
@@ -71,7 +89,8 @@
 
 
 .m {
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
+    background-color:azure;
 }
 /* Títulos y textos */
 .p1,
