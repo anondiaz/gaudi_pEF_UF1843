@@ -21,16 +21,21 @@ El modelo te debe servir como referencia. -->
             <h2 tabindex="0">Una obra maestra de la arquitectura modernista</h2>
         </header>
         <nav>
-            <ul>
-                <li><a aria-label="" href="#antonio-gaudi">ANTONIO GAUDÍ</a></li>
-                <li><a aria-label="" href="#el-edificio">EL EDIFICIO</a></li>
-                <li><a aria-label="" href="#galeria">GALERÍA</a></li>
-                <li><a aria-label="" href="#el-modernismo">EL MODERNISMO</a></li>
-                <li><a aria-label="" href="#su-opinion">SU OPINIÓN</a></li>
-            </ul>
+            <hr>
+            <div>
+                <ul>
+                    <li><a aria-label="Acceso a la descripción de Antoni Gaudi" href="#antonio-gaudi">ANTONIO GAUDÍ</a></li>
+                    <li><a aria-label="Acceso a la descripción del edificio de la casa Batllo" href="#el-edificio">EL EDIFICIO</a></li>
+                    <li><a aria-label="" href="#galeria">GALERÍA</a></li>
+                    <li><a aria-label="" href="#el-modernismo">EL MODERNISMO</a></li>
+                    <li><a aria-label="" href="#su-opinion">SU OPINIÓN</a></li>
+                </ul>
+            </div>
+            <hr>
         </nav>
         <main>
-        <section>
+        <section class="sub-head">
+            <div>
             <picture>
                 <source
                     media="(max-width: 500px)"
@@ -41,13 +46,13 @@ El modelo te debe servir como referencia. -->
                     srcset="img/346983-Casa-Batllo-800.avif"
                 />
                 <img
-                    class="imagendiv"
                     src="img/346983-Casa-Batllo-1400.avif"
                     alt="Acceso a Casa Batlló."
                 />
             </picture>
+        </div>
         </section>
-        <section>
+        <section id="antonio-gaudi">
             <h2 tabindex="0">Antoni Gaudí</h2>
             <div>
                 <img src="img/Antoni_Gaudi_1878.avif"/>
@@ -78,7 +83,7 @@ El modelo te debe servir como referencia. -->
                 </p>
             </div>
         </section>
-        <section>
+        <section id="el-edificio">
             <h2 tabindex="0">El edificio</h2>
             <div>
                 <img src="img/fachada-590x760.avif"/>
@@ -118,7 +123,7 @@ El modelo te debe servir como referencia. -->
                 </p>
             </div>
         </section>
-        <section>
+        <section id="galeria">
             <h2 tabindex="0">Galería de imágenes</h2>
             <img src="img/salon.avif"/>
             <img src="img/detall.avif"/>
@@ -128,7 +133,7 @@ El modelo te debe servir como referencia. -->
                 <a aria-label="" href="#inicio">Volver al inicio &#8593;</a>
             </div>
         </section>
-        <section>
+        <section id="el-modernismo">
             <h2 tabindex="0">El modernismo</h2>
             <div>
                 <img src="img/casa_mila.avif"/>
